@@ -1,13 +1,32 @@
-numpy
-tqdm
-rich
-openai
-anthropic
-google-generativeai
-torch
-transformers
-accelerate
-ollama
-datasets
-trl
-peft
+# Core dependencies
+torch>=2.0.0
+transformers>=4.30.0
+accelerate>=0.20.0
+
+# Long-context processing
+flash-attn>=2.0.0
+xformers>=0.0.20
+sentence-transformers>=2.2.2
+
+# Data handling
+numpy>=1.24.0
+pandas>=2.0.0
+datasets>=2.12.0
+
+# Training and optimization
+peft>=0.4.0
+trl>=0.4.7
+bitsandbytes>=0.40.0
+
+# Evaluation and visualization
+scikit-learn>=1.2.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tqdm>=4.65.0
+
+# Utilities
+rich>=13.0.0
+loguru>=0.7.0
+
+# Optional: For distributed training
+deepspeed>=0.9.0
