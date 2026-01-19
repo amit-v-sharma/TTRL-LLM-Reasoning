@@ -2,6 +2,7 @@
 
 # Heavy Model Outputs (Do not commit these)
 reward_model_output/
+self_improved_model/
 mlruns/
 mlflow.db
 
