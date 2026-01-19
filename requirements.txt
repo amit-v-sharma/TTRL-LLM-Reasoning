@@ -1,0 +1,13 @@
+numpy
+tqdm
+rich
+openai
+anthropic
+google-generativeai
+torch
+transformers
+accelerate
+ollama
+datasets
+trl
+peft

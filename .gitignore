@@ -1,0 +1,12 @@
+# TTRL Tutorial Gitignore
+
+# Heavy Model Outputs (Do not commit these)
+reward_model_output/
+mlruns/
+mlflow.db
+
+# Python/Jupyter Caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
